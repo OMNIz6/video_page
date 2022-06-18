@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.videoplayer{
+    width: 70%;
+    height: 40rem;
+    margin: 2.5rem auto 0 auto;
+    display: block;
+}
+.img-con{
+    width: 11rem;
+    margin-left: 2vw;
+    padding: 0.4rem 0;
+}
+.logo-img{
+    width: 100%;
+}
+.header-con{
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+    background: linear-gradient(to left, #ef383922, #ffcd0522, #5dc3ad22);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+@media (max-width: 1080px) {
+    .videoplayer{
+        height: 40rem;
+        width: 90%;
+        margin: 1rem auto 0 auto;
+    }
+}
+@media (max-width: 700px) {
+
+}
+@media (max-width: 560px){
+
+}
